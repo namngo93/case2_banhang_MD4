@@ -53,6 +53,7 @@ class ProductController {
                 let home = req.body;
                 home.image = '/storage/' + image.name;
                 await productService.save(home);
+                // console.log(1)
                 res.redirect(301, '/home');
             }
         }

@@ -14,6 +14,5 @@ export class Product{
     description: string;
     @Column()
     category: number;
-    @Column({type:"int"})
-    idOrder: number;
+
 }

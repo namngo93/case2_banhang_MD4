@@ -5,5 +5,4 @@ export declare class Product {
     image: string;
     description: string;
     category: number;
-    idOrder: number;
 }
